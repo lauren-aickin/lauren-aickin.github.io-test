@@ -1,7 +1,7 @@
 #intro-section {
     color: rgb(216, 132, 23);
-    max-width: 30%;
-    text-align: left;
+    max-width: 100%;
+    text-align: center;
 }
 
 body {
@@ -14,6 +14,7 @@ h1 {
     color: yellowgreen;
     font-family: 'ZCOOL KuaiLe', cursive;
     font-size: large;
+    text-align: center;
 }
 
 .thin-grey-border {
@@ -30,7 +31,7 @@ img {
 
 #title-image {
    float: right; 
-   max-width: 20%;
+   max-width: 30%;
    margin:0 15px 0 0;
 }
 
