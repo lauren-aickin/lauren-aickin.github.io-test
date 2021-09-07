@@ -36,5 +36,7 @@ img {
 }
 
 .buttons {
-    float: right;
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color: black;
 }
