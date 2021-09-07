@@ -1,4 +1,4 @@
-.intro-section {
+#intro-section {
     color: rgb(216, 132, 23);
     max-width: 30%;
     text-align: left;
@@ -7,11 +7,13 @@
 body {
     background-color: papayawhip;
     font-family: 'Bangers', cursive;
+    font-size: medium;
 }
 
 h1 {
     color: yellowgreen;
     font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: large;
 }
 
 .thin-grey-border {
@@ -20,3 +22,13 @@ h1 {
     border-style: solid;
     border-radius: 10px;
 }
+
+img {
+    max-width: 100%;
+    height:auto
+}
+
+#title-image {
+   align-self: right; 
+}
+
