@@ -30,5 +30,6 @@ img {
 
 #title-image {
    align-self: right; 
+   max-width: 25%;
 }
 
