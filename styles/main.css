@@ -5,5 +5,11 @@
 }
 
 body {
+    background-color: plum;
     font-family: 'Bangers', cursive;
+}
+
+h1 {
+    color: yellowgreen;
+    font-family: 'ZCOOL KuaiLe', cursive;
 }
