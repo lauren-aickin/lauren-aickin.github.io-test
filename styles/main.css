@@ -1,8 +1,8 @@
 .header {
     padding: 60px;
     text-align: center;
-    background:oldlace;
-    color:olivedrab;
+    background:black;
+    color:whitesmoke;
     font-size: xx-large;
 }
 #intro-section {
@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color:lightgreyg;
+    background-color:lightgrey;
     font-family: 'Bangers', cursive;
     font-size: medium;
 }
