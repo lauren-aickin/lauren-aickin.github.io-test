@@ -1,4 +1,10 @@
-
+#header {
+    padding: 60px;
+    text-align: center;
+    background:oldlace;
+    color:olivedrab;
+    font-size: xx-large;
+}
 #intro-section {
     color: rgb(216, 132, 23);
     max-width: 100%;
@@ -7,17 +13,12 @@
 }
 
 body {
-    background-color:lightgrey;
+    background-color:lightgreyg;
     font-family: 'Bangers', cursive;
     font-size: medium;
 }
 
-h1 {
-    color: yellowgreen;
-    font-family: 'ZCOOL KuaiLe', cursive;
-    font-size: larger;
-    text-align: center;
-}
+
 
 .sub-titles {
     font-size: large;
