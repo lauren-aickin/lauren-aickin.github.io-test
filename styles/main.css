@@ -19,12 +19,6 @@ a:hover {
    color: rgb(216, 132, 23);
 }
 
-.vertline {
-    border-left: 6px solid rgb(216, 132, 23);
-    height: 100px;
-    position: absolute;
-    right: -10px;
-}
 
 body {
     background-color:whitesmoke;
@@ -45,6 +39,12 @@ body {
     border-radius: 10px;
 }
 
+.banner-border {
+position: absolute;
+right:0px;
+bottom:0px;
+}
+
 #title-image {
    float: right; 
    max-width: 30%;
@@ -57,7 +57,7 @@ img {
 }
 
 .buttons {
-    text-align: center;
+    text-align: right;
     font-family: 'Amiri', serif;
     color: black;
     font-size: 18pt;
