@@ -1,8 +1,9 @@
 .header {
-    padding: 5px;
+    padding: 10px;
     text-align: left;
     background:white;
-    font-size: 25pt;
+    font-size: 15pt;
+    margin:5px;
 }
 
 h1 {
@@ -41,15 +42,15 @@ body {
 
 .banner-corner {
 position: absolute;
-right:0px;
-top:0px;
+right:13px;
+top:10px;
 max-width: 20%;
 height: auto;
 }
 
 #title-image {
-   float: right; 
-   max-width: 30%;
+   float: left; 
+   max-width: 25%;
    margin:0 15px 0 0;
 }
 
