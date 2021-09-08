@@ -21,47 +21,55 @@
         <img src="/blog/images/Document-flow-blocks.png" alt="document block layout">
     </p>
     <p>
-        This initial positioning is called "static" and is the default for every element.
+      This initial positioning is called "static" and is the default for every element.
     </p>
-    Relative Positioning
+  Relative Positioning
     <p>
-      Relative positioning is a way to move your blocks (or elements) in context to themselves. IE the movement commands you use in conjunction with relative positioning will operate relative to where the block would normally be.
+    Relative positioning is a way to move your blocks (or elements) in context to themselves. IE the movement commands you use in conjunction with relative positioning will operate relative to where the block would normally be.
     </p>
     <p>
       <img src="/blog/images/Relative-position-code.png" alt="code example">
     </p>  
     <p>
-      In this example the box would move down 600 px or pixels.
-When using relative positioning the moved block is not removed from the documents flow - ie. box 2 and 3 will still act as though box 1 is in its original position.
+    In this example the box would move down 600 px or pixels.
+    When using relative positioning the moved block is not removed from the documents flow - ie. box 2 and 3 will still act as though box 1 is in its original position.
     </p>
     <p>
       <img src="/blog/images/relative-position.jpg" alt="relative box example">
     </p>
-    Absolute Positioning
+  Absolute Positioning
     <p>
-      Absolute positioning is a way to move blocks in context to the closest containing element that has been assigned a position (eg. relative). The containing element is referred to as the 'parent' element.
+    Absolute positioning is a way to move blocks in context to the closest containing element that has been assigned a position (eg. relative). The containing element is referred to as the 'parent' element.
     </p>  
     <p>
       <img src="/blog/images/absolute-position-code.PNG" alt="absolute box example">
     </p>
     <p>
-      In this example the box would move 600 px or pixels down from the the top edge of the <em>parent</em>.
+    In this example the box would move 600 px or pixels down from the the top edge of the <em>parent</em>.
       This means that if the box was already positioned 700 pixels below the parents top edge it would actually move up <em>up</em> 100 pixels from its current position.
     </p>
     <p>
-      You can use this function to make the box move outside of the parent by specifying a negative (-##px).
-      You can also make the box flush with the parent by using 0px as the distance - the below would have the box flush with the parens <em>left</em> wall.
+    You can use this function to make the box move outside of the parent by specifying a negative (-##px).
+    You can also make the box flush with the parent by using 0px as the distance - the below would have the box flush with the parens <em>left</em> wall.
     </p>
     <p>
       <img src="/blog/images/absolute-position-code-flush.PNG" alt="absolute box flush example">
     </p>
-  <p>
-When using the absolute positioning function elements <em>are</em> removed from the documents flow
-  </p>
-  <p>
+    <p>
+    When using the absolute positioning function elements <em>are</em> removed from the documents flow
+    </p>
+    <p>
     <img src="/blog/images/absolute-position.jpg" alt="absolute box example">
-  </p>
-
+    </p>
+  Fixed Positioning
+    <p>
+    Fixed positioning is basically the same as absolute positioning except that its 'parent' element is the viewport (browser window).
+    This means that if you resize your browser window the block will move with it - which means it can sit in front of the other content.
+    Just like absolute positioning the fixed position block is removed from the documents flow.
+    </p>
+    <p>
+    <img src="/blog/images/fixed-position.jpg" alt="fixed box example">
+    </p>
 
     <!-- this is a comment. -->
   
