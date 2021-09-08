@@ -1,4 +1,4 @@
-#header {
+.header {
     padding: 60px;
     text-align: center;
     background:oldlace;
@@ -17,7 +17,6 @@ body {
     font-family: 'Bangers', cursive;
     font-size: medium;
 }
-
 
 
 .sub-titles {
