@@ -13,7 +13,7 @@
   
   <body>
     <h1>Relative, Absolute and Fixed positioning in CSS</h1>
-    <h2>What are they and how do they <em>differ?</em></h2>
+    <h2 class="sub-titles">What are they and how do they <em>differ?</em></h2>
     <h3>08 September 2021</h3>
     
     <p>
@@ -23,7 +23,9 @@
     <p>
       This initial positioning is called "static" and is the default for every element.
     </p>
-  Relative Positioning
+  <div class="sub-titles">
+    Relative Positioning
+  </div>
     <p>
     Relative positioning is a way to move your blocks (or elements) in context to themselves. IE the movement commands you use in conjunction with relative positioning will operate relative to where the block would normally be.
     </p>
@@ -37,7 +39,9 @@
     <p>
       <img src="/blog/images/relative-position.jpg" alt="relative box example">
     </p>
-  Absolute Positioning
+    <div class="sub-titles">
+    Absolute Positioning
+    </div>
     <p>
     Absolute positioning is a way to move blocks in context to the closest containing element that has been assigned a position (eg. relative). The containing element is referred to as the 'parent' element.
     </p>  
@@ -61,10 +65,13 @@
     <p>
     <img src="/blog/images/absolute-position.jpg" alt="absolute box example">
     </p>
+  <div class="sub-titles">
   Fixed Positioning
+  </div>
     <p>
     Fixed positioning is basically the same as absolute positioning except that its 'parent' element is the viewport (browser window).
-    This means that if you resize your browser window the block will move with it - which means it can sit in front of the other content.
+    This means that if you resize your browser window or scroll the block will move with it - which means it can sit in front of the other content if you don't plan for enough space.
+    Fixed positioning can be helpful if you want something like a naviagtion bar to be visable at all times.
     Just like absolute positioning the fixed position block is removed from the documents flow.
     </p>
     <p>
