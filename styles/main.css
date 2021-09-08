@@ -39,10 +39,12 @@ body {
     border-radius: 10px;
 }
 
-.banner-border {
+.banner-corner {
 position: absolute;
 right:0px;
-bottom:0px;
+top:0px;
+max-width: 20%;
+height: auto;
 }
 
 #title-image {
