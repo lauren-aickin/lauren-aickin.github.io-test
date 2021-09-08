@@ -7,6 +7,7 @@
     <link href="/blog/images/Document-flow-blocks.png" rel="images" type="image/png">
     <link href="/blog/images/Relative-position-code.png" rel="images" type="image/png">
     <link href="/blog/images/relative-position.jpg" rel="images" type="image/jpg">
+    
 
   </head>
   
@@ -18,6 +19,8 @@
     <p>
       Every element on a web page is a block or a rectangle of pixels. Relative, absolute and fixed positioning are some of the tools you can use in CSS to move these blocks exactly where you want them to go (instead of having one big list of elements like the below).
         <img src="/blog/images/Document-flow-blocks.png" alt="document block layout">
+    </p>
+    <p>
         This initial positioning is called "static" and is the default for every element.
     </p>
     Relative Positioning
@@ -36,10 +39,18 @@ When using relative positioning the moved block is not removed from the document
     </p>
     Absolute Positioning
     <p>
-      Absolute positioning is a way to move blocks in context to the closest containing element. The containing element is referred to as the 'parent' element.
+      Absolute positioning is a way to move blocks in context to the closest containing element that has been assigned a position (eg. relative). The containing element is referred to as the 'parent' element.
+    </p>  
+    <p>
+      <img src="/blog/images/absolute-position-code.PNG" alt="absolute box example">
+    </p>
+    <p>
+      In this example the box would move 600 px or pixels down from the the top edge of the <em>parent</em>.
+      This means that if the box was already positioned 700 pixels below the parents top edge it would actually move up <em>up</em> 100 pixels from its current position.
+    </p>
+    <p>
       
     </p>
-    
     <!-- this is a comment. -->
   
   </body>
