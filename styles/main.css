@@ -12,6 +12,10 @@
     font-size: medium;
 }
 
+a:hover {
+    background-color: rgb(216, 132, 23);
+}
+
 body {
     background-color:lightgrey;
     font-family: 'Bangers', cursive;
