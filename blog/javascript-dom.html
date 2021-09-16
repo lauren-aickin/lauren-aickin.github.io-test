@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Caffeine Hour</title>
+        <link href="/styles/main.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cinzel&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--Page Head-->
+    <div class="header">
+        <h1>
+          <a href="/index.html">Lounge and <br>Learn with <br>Lauren</a>
+        </h1> 
+  <!--Menus and navigation-->
+        <p class="buttons">
+            <a href="/index.html">Home</a><br>
+            <a href="/blog/html-css.html">Absolute, relative and fixed positioning</a><br>
+            <a href="/blog/identity-values.html">my Identity and Values</a><br>
+            <a href="/blog/emotional-intelligence.html">Emotional Intelligence</a><br>
+            <a href="/blog/learning-plan.html">Learning Plan</a><br>
+            <audio controls>
+              <source src="./blog/Audio/never-giving-up.mp3.mp3" type="audio/mp3">
+            Your browser does not support giving up.
+            </audio>
+        <br>
+          <img class="banner-corner" src=".images/corner-scroll.jpg">
+        </p>
+    </div>
+    <!--Main Content-->
+    <h2>Javascript</h2>
+    <h3>16 September 2021</h3>
+    <span><strong>An introduction from a programming noob, for programming noobs</strong></span>
+    <p>
+        Javascript is an important part of a coders toolkit, adding life and movement to our websites. It may seem like a foreign language right now but it is one well worth learning!
+    </p>
+    <p>
+        So how does this magical Javascript fit in with HTML and CSS within the web developer toolkit?
+        Lets use the context of film as an analogy: HTML would be the script, CSS the costume and Javascript the actor.
+    </p>
+    <span>Basic Ideas/Lingo</span>
+    <p>
+        In Javascript <emphasis>strings</emphasis> can be used to store characters - such as letters, numbers and words. Strings have to be within single or double quotations (either is fine as long as you use the same at both ends).<br>
+        <emphasis>Values</emphasis> are another basic component - they can be many things such as:<br>an integer (int) 10,<br>a string "pancakes" <br>a function() {}<br>or more that you may learn along the way!<br>
+        <emphasis>Variables</emphasis> or var is what we use to store these values. eg, var name = val or var lauren = "Hates pineapple pizza".
+    </p>
+    <span>Functions</span>
+    <p>
+        <emphasis>Functions</emphasis> are one of the core Javascript <emphasis>values</emphasis> to get your head around. Functions are just what they sound like on the tin  - they're a procedure/block of code that performs a certain task. Functions are executed when something invokes it (like a magician invoking a spell).<br>
+        This means you can code a task that needs to be used multiple times just once in a function block and then use it to your hearts content by calling its name. eg.<br>
+        function addition(num1,num2) {
+            let res = num1 + num 2
+            return res;
+        }<br>
+        would be called by typing:<br>
+        addition(5,1)
+        <br>
+        and would return the answer 6.
+    </p>
+    <span>Control Flow and Loops</span>
+    <p>
+        One of Javascripts strongest features is control flow. This is the order a program's code executes and is done through a few different statement stypes - today we'll focus on <emphasis>looping</emphasis>.<br>
+        Looping is used when you want to tell the computer to repeat a task over and over again - this can be a <emphasis>for loop</emphasis> to loop through the code block a specified number of times or a <emphasis>while loop</emphasis> that loops until a certain condition is met. <br>
+        Lets look at some real life examples as analogys.<br>
+        If you were following an exercise plan that specified 20 squats you would use a for loop to repeat the movement 20 times.<br>
+        If you were following an exercise plan that specified "you must be able to lift 20KGs before moving on" you would repeat the exercise with a while loop until the 20kgs has been achieved. 
+    </p>
+    <span>Arrays and Objects</span>
+    <p>
+        <emphasis>Arrays</emphasis> and <emphasis>objects</emphasis> are two similar concepts that are used within javascipt for different purposes. They are both used to store a collection of values and are changeable(mutable) so what are their differences?<br>
+        <br>
+            Objects are used to represent a "thing". That could be an album, a building/structure, a colleague or a flower - anything that can be defined by a set of characteristics (properties). These properties contain a key (eg. age) and a value (eg. 26).<br>
+            To access the data within an object we use a dot or a bracket. For example in our 'lemon' object to grab the value of the taste key we could either use:<br>
+            lemon.taste <emphasis>or</emphasis> lemon['taste'] <br>
+            These both work but if there are spaces in your key you'll need to use the bracket variant.<br>
+        <br>
+            Arrays are used to create and store lists of items in one variable. They are ordered by their numerical position in the list and can be accessed by calling their index number. These lists always start at zero - so if you want to access the first item in the following array:<br>
+            var sillyFoods = ['sausage', 'salmon', 'stroganoff']; <br>
+            you would write:<br>
+            sillyFoods[0];<br>
+            which would return 'sausage'.
+    </p>
+    <span>The DOM</span>
+    <p>
+    The DOM (Document Object Model - but you don't have to remember the full name!) connects web pages to scripts or programming languages (eg. javascript!) by representing a documents structure. It does this with a tree structure to show the relationships between different elements (called nodes) much like you would see in a geneology family tree.<br>
+    You won't see this structured exactly as a tree in practise but it's good to know that that's how elements are linked and categorised. What you will use in practice are the browsers rendition of the DOM through the developer tools - the most commonly used is chromes.<br>
+    You can access the Dev tools either by clicking the 3 dots in the top right of your browser > more tools > Developer Tools, with ctrl shift i or by right clicking and hitting inspect.<br>
+    What you do in here will not directly affect the source code - which means we can play to our hearts content with no fear of breaking a website!<br>
+    This is helpful for testing out bug fixes/code lines before commiting to changing your source code - or just messing with your friends! Keep in mind that when you refresh/leave the page all changes will be reverted to the original code.
+    For example one small double click within the elements tab lets me change this youtube clips title:<br>
+    </p>
+    <span><img src = "./images/never-giving-up.PNG"> <img src= "./images/totally-giving-up.PNG"> </span>
+    <br>
+    <p>
+        That's a lot of content covered today so we'll stop here - but make sure to have a play in the developer tool kit yourself!
+    </p>
+    </body>
+</html>
