@@ -6,6 +6,27 @@
     margin:5px;
 }
 
+/* Container for flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+/* Create three equal columns that sit next to each other */
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 300px;
+  }
+  
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+
 h1 {
     font-family: 'Cinzel', serif;
 }
