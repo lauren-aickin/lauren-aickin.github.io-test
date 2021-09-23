@@ -1,10 +1,15 @@
 .header {
     padding: 10px;
-    text-align: left;
+    text-align: right;
     background:white;
-    font-size: 15pt;
+    font-size: 13pt;
     margin:5px;
-    background-image: url('file:///C:/Users/laur3/Dev-Academy/workspace/lauren-aickin.github.io/images/header-plant.jpg') ;
+}
+
+#front-page {
+    background-image: url(https://img4.goodfon.com/wallpaper/nbig/8/bf/rastenie-belyi-fon-vaza-stol-stekliannaia.jpg);
+    max-width: 100%;
+    max-height: auto;
 }
 
 /* Container for flexboxes */
