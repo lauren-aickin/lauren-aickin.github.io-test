@@ -1,15 +1,18 @@
 .header {
     padding: 10px;
-    text-align: right;
+    text-align: left;
     background:white;
-    font-size: 13pt;
+    font-size: 20pt;
     margin:5px;
 }
 
-#front-page {
-    background-image: url(https://img4.goodfon.com/wallpaper/nbig/8/bf/rastenie-belyi-fon-vaza-stol-stekliannaia.jpg);
-    max-width: 100%;
-    max-height: auto;
+.front-page {
+    background-color: #ebebeb;
+    background-image: url('file:///C:/Users/laur3/Dev-Academy/workspace/lauren-aickin.github.io/images/header-plant.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 180px;
 }
 
 /* Container for flexboxes */
@@ -27,7 +30,7 @@
     height: 300px;
   }
   
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* Responsive layout - make the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
     .row {
       -webkit-flex-direction: column;
@@ -106,4 +109,10 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* section for IDs */
+
+#naruto {
+    
 }
