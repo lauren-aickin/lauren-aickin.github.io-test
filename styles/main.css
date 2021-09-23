@@ -4,6 +4,7 @@
     background:white;
     font-size: 15pt;
     margin:5px;
+    background-image: url('file:///C:/Users/laur3/Dev-Academy/workspace/lauren-aickin.github.io/images/header-plant.jpg') ;
 }
 
 /* Container for flexboxes */
@@ -80,12 +81,6 @@ right:13px;
 top:10px;
 max-width: 20%;
 height: auto;
-}
-
-#title-image {
-   float: right; 
-   max-width: 25%;
-   margin:0 15px 0 0;
 }
 
 img {
