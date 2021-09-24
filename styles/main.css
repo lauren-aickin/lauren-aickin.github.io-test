@@ -9,15 +9,6 @@
     font-size: xx-large
 }
 
-.front-page {
-    background-color: #ebebeb;
-    background-image: url('file:///C:/Users/laur3/Dev-Academy/workspace/lauren-aickin.github.io/images/header-plant.jpg');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-    height: 200px;
-}
-
 /* Container for flexboxes */
 .row {
     display: -webkit-flex;
@@ -39,6 +30,14 @@
     flex: 1;
     padding: 10px;
     height: 200px;
+  }
+
+  .banner-column-image {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    max-width: 100%;
   }
 
 /* Responsive layout - make the three columns stack on top of each other instead of next to each other */
@@ -66,7 +65,7 @@ h3 {
 #intro-section {
     color: rgb(216, 132, 23);
     text-align: center;
-    font-size: small;
+    font-size: medium;
     word-wrap: break-word;
     white-space: pre-wrap;
     line-height: -5px;
@@ -106,7 +105,13 @@ height: auto;
 
 img {
     max-width: 100%;
-    height:auto
+    height:auto;
+}
+
+.reduce-img {
+    width: 100%;
+    height:auto;
+    object-fit: cover;
 }
 
 .example-image {
@@ -121,4 +126,22 @@ img {
 
 #naruto {
     margin: 60px 0px 60px 0px;
+}
+
+#front-page {
+    background-color: #ffffff;
+    background-image: url("https://images.unsplash.com/photo-1540845692348-b9d2bc813a63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=770&q=80");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    height: fit-content; 
+}
+
+#core-page {
+    background-color: #ffffff;
+    background-image: url("https://images.unsplash.com/photo-1556113275-1c502589049e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=741&q=80");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    height: fit-content; 
 }
