@@ -1,0 +1,103 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+​
+p{
+    margin: 0;
+}
+.pContainer{
+    width: 100%;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(34deg, green, bisque);
+    flex-direction: column;
+    justify-content: space-between ;
+​
+}
+​
+.calculator{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+​
+}
+​
+.button{
+    border-style: solid;
+    width: 22%;
+    height: 13%
+}
+​
+.number{
+​
+}
+​
+.operator{
+​
+}
+​
+.output{
+    order: -10;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(45deg, coral, pink);
+    color: white;
+}
+​
+#one{
+​
+}
+​
+#two{
+​
+}
+​
+#three{
+​
+}
+#four{
+​
+}
+#five{
+​
+}
+#six{
+​
+}
+#seven{
+​
+}
+#eight{
+​
+}
+#nine{
+​
+}
+#zero{
+​
+}
+#CLR{
+ order: -9 
+}
+#eql{
+}
+#subtract{
+​
+}
+#add{
+​
+}
+​
+#divide{
+​
+}
+​
+#mult{
+​
+}
