@@ -162,3 +162,9 @@ img {
     background-size: contain;
     height: fit-content; 
 }
+
+#game-banner {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
+}
