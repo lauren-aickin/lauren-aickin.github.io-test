@@ -41,6 +41,16 @@
     background-size: contain;
     height: fit-content; 
 }
+
+.game-page {
+    background-color: #ffffff;
+    background-image: url("https://images.unsplash.com/photo-1570631810548-cbfeb6e84041?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=388&q=80");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    height: fit-content; 
+}
+
 /* Create three equal columns that sit next to each other */
 .column {
     -webkit-flex: 1;
